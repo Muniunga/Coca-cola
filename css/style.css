@@ -7,14 +7,14 @@
 body {
   background-color: black;
 }
-header {
+header .container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-header .container h2 {
+header .container .logo {
   color: #7db3f0;
   margin-left: 5px;
   font-family: "Coca Cola ii 400";
@@ -28,4 +28,9 @@ header nav a {
 }
 header nav a:hover {
   color: #fff;
+}
+header .container button {
+  background-color: #7db3f0;
+  color: white;
+  padding: 10px;
 }
