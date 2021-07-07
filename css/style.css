@@ -17,7 +17,7 @@ header .container {
 header .container .logo {
   color: #7db3f0;
   margin-left: 10px;
-  font-family: "Coca Cola ii 400";
+  font-family: "Courier New", Courier, monospace;
   font-size: 40px;
 }
 
