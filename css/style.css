@@ -21,7 +21,7 @@ header .container {
   font-style: normal;
 }
 header .container .logo {
-  color: #7db3f0;
+  color: #3a96e2;
   margin-left: 10px;
   margin-top: 20px;
   font-family: "cola";
@@ -36,14 +36,21 @@ header nav a {
 header nav a:hover {
   color: #fff;
 }
+.principal > .home{
+  display: flex;
+}
 
+.principal > .home > .especial{
+  display: flex;
+}
 .principal {
   height: 700px;
-  width: 700px;
+  width: auto;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-right: 300px;
   align-items: flex-start;
 }
 
@@ -58,7 +65,7 @@ header nav a:hover {
   color: #fff;
 }
 .container h5 {
-  color: #7db3f0;
+  color: #3a96e2;
   font-size: 20px;
 }
 .container h1 {
@@ -66,16 +73,28 @@ header nav a:hover {
 }
 
 .botao {
-  background-color: #7db3f0;
+  background-color: #3a96e2;
   border: none;
   color: white;
 
   padding: 15px 30px;
   margin-right: 15px;
-  font-size: 19px;
+  font-size: 15px;
 
   cursor: pointer;
 }
 .container {
   margin-left: 20px;
+}
+.especial{
+  margin-left: 100px;
+}
+
+.lado h1{
+  color: #3a96e2;
+}
+img{
+  height: 500px;
+  width: 500;
+
 }
