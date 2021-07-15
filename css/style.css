@@ -26,7 +26,7 @@ header .container .logo {
   margin-left: 10px;
   margin-top: 20px;
   font-family: "cola";
-  font-size: 50px;
+  font-size: 65px;
 }
 
 header nav a {
@@ -37,7 +37,7 @@ header nav a {
 header nav a:hover {
   color: #fff;
 }
-
+/*
 .home > .box{
   display: flex;
 }
@@ -75,7 +75,8 @@ header nav a:hover {
   font-family: sans-serif;
   border-radius: 10px;
 }
-/*
+*/
+
 .principal > .home {
   display: flex;
 }
@@ -84,6 +85,8 @@ header nav a:hover {
   display: flex;
 }
 .principal {
+  margin-top: 100px;
+  margin-left: 48px;
   height: 700px;
   width: auto;
   background-size: cover;
@@ -96,8 +99,8 @@ header nav a:hover {
 
 .principal .titulo {
   font-size: 40px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .principal .descricao {
   margin-bottom: 40px;
@@ -114,7 +117,8 @@ header nav a:hover {
 
 .botao {
   background-color: #3a96e2;
-  border: none;
+  border: solid 1px #3a96e2;
+  border-radius: 5px;
   color: white;
 
   padding: 15px 30px;
@@ -133,10 +137,6 @@ header nav a:hover {
 .lado h1 {
   color: #3a96e2;
 }
-img {
-  height: 500px;
-  width: 500;
-}
 
 .container {
   margin-left: 20px;
@@ -145,12 +145,15 @@ img {
 
 .lado {
   position: right;
+  margin-top: -110px;
 }
-.lado .night {
+.night {
   color: #7db3f0;
-  font-size: 70px;
+  font-size: auto;
   position: center;
 }
 img {
-  width: 250px;
+  margin-top: -137px;
+  height: 900px;
+  width: 487px;
 }
